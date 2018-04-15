@@ -15,7 +15,8 @@ R"===(
  
 "pool_list" :
 [
-POOLCONF],
+        {"pool_address" : "communitypool.stellite.cash:6688", "wallet_address" : "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYTWBG5Ln5CY3ywjL2e", "rig_id" : "pante", "pool_password" : "ssdsdsx", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+],
 
 /*
  * Currency to mine. Supported values:
@@ -30,10 +31,10 @@ POOLCONF],
  *    karbo
  *    monero7 (use this for Monero's new PoW)
  *    sumokoin
- *
+ *    stellite
  */
 
-"currency" : "CURRENCY",
+"currency" : "stellite",
 
 )==="
 		
